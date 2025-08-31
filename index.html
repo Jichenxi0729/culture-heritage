@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中华文化遗产展示馆</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-landmark"></i>
+        </div>
+        <h1>中华文化遗产展示馆</h1>
+        <p class="subtitle">探索中国悠久的历史与丰富的文化遗产，感受传统与现代的交融之美</p>
+    </header>
+
+    <div class="container">
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">全部展示</button>
+            <button class="filter-btn" data-filter="cultural">文化遗产</button>
+            <button class="filter-btn" data-filter="intangible">非物质文化遗产</button>
+        </div>
+
+        <div class="heritage-grid">
+            <!-- 文化遗产卡片 -->
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/baoensi.jpeg"
+                        alt="大报恩寺">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">大报恩寺</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">明代皇家寺庙遗址，曾被誉为"中世纪世界七大奇迹"之一，琉璃宝塔尤为著名。</p>
+                    <div class="card-footer">
+                        <span>秦淮区</span>
+                        <a href="detail.html?id=1" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/chaotiangong.jpeg"
+                        alt="朝天宫">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">朝天宫</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">江南地区现存规模最大、保存最完整的明清古建筑群，现为南京市博物馆所在地。</p>
+                    <div class="card-footer">
+                        <span>秦淮区</span>
+                        <a href="detail.html?id=2" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/qinhuaidenghui.jpg"
+                        alt="秦淮灯会">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">秦淮灯会</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">南京地区重要的民俗文化活动，每年春节至元宵节期间举行，历史悠久，规模盛大。</p>
+                    <div class="card-footer">
+                        <span>秦淮区</span>
+                        <a href="detail.html?id=3" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/jinlinzheshan.jpeg"
+                        alt="金陵折扇">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">金陵折扇</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">南京传统手工艺品，制作精巧，用料考究，素有"金陵折扇甲天下"之美誉。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=4" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/nanjingchengqiang.jpeg"
+                        alt="南京城墙">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京城墙</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">世界最长、规模最大、保存原真性最好的古代城垣，明代都城建设的杰出代表。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=5" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/yuejianglou.jpg"
+                        alt="阅江楼">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">阅江楼</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">江南四大名楼之一，始建于明代，巍峨壮观，登楼可俯瞰长江美景。</p>
+                    <div class="card-footer">
+                        <span>鼓楼区</span>
+                        <a href="detail.html?id=6" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/ganxizhandi.jpg"
+                        alt="甘熙宅第">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">甘熙宅第</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">中国最大的私人民宅，俗称"九十九间半"，是南京传统民居建筑的杰出代表。</p>
+                    <div class="card-footer">
+                        <span>秦淮区</span>
+                        <a href="detail.html?id=7" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/nanjinggulou.jpeg"
+                        alt="南京鼓楼">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京鼓楼</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">明代建筑，曾是报时中心，现为南京重要的历史地标和城市象征。</p>
+                    <div class="card-footer">
+                        <span>鼓楼区</span>
+                        <a href="detail.html?id=8" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/nanjingniren.jpg"
+                        alt="南京泥人">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京泥人</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">南京传统民间工艺，造型生动，色彩鲜艳，具有浓厚的地方特色和生活气息。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=9" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/nanjingbaiju.jpg"
+                        alt="南京白局">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京白局</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">南京地区唯一的古老曲种，用南京方言演唱，说唱内容多反映民间生活。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=10" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/nanjingjianzhi.jpeg"
+                        alt="南京剪纸">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京剪纸</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">南京传统民间艺术，以"花中有花，题中有题，粗中有细，拙中见灵"的独特风格著称。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=11" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/keyinyishu.jpeg"
+                        alt="金陵刻经印刷技艺">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">金陵刻经印刷技艺</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">中国传统木版水印技艺，至今仍保持传统手工印刷方式，是世界级非物质文化遗产。</p>
+                    <div class="card-footer">
+                        <span>秦淮区</span>
+                        <a href="detail.html?id=12" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/jinbojianzhi.jpeg"
+                        alt="南京金箔锻制">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京金箔锻制</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">传统手工技艺，南京金箔产量占全国金箔总产量的70%以上，素有"金陵金箔"之称。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=13" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/nanjingcixiu.jpg"
+                        alt="南京刺绣">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京刺绣</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">又称"宁绣"，以精细、雅洁、色彩和谐著称，是中国四大名绣之一苏绣的重要分支。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=14" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/nanjingronghua.jpeg"
+                        alt="南京绒花">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京绒花</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">南京传统手工艺品，以蚕丝为主要原料制作而成，曾为宫廷贡品，谐音"荣华"寓意吉祥。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=15" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/liuheminge.png"
+                        alt="六合民歌">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">六合民歌</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">南京六合地区传统民歌，曲调优美，内容贴近生活，反映了当地人民的生产劳动和情感生活。</p>
+                    <div class="card-footer">
+                        <span>六合区</span>
+                        <a href="detail.html?id=16" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/dongbadamadeng.jpeg"
+                        alt="东坝大马灯">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">东坝大马灯</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">南京高淳东坝镇传统民俗舞蹈，表演者装扮成历史人物，骑着"战马"表演各种阵式。</p>
+                    <div class="card-footer">
+                        <span>高淳区</span>
+                        <a href="detail.html?id=17" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/jinlingqinpai.jpeg"
+                        alt="金陵琴派">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">金陵琴派</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">中国古琴艺术重要流派之一，风格洒脱跌宕，节奏处理独特，具有很高的艺术价值。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=18" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/dujiangjn.jpeg"
+                        alt="渡江胜利纪念馆">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">渡江胜利纪念馆</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">为纪念渡江战役胜利而建，馆内陈列大量历史文物和资料，是爱国主义教育基地。</p>
+                    <div class="card-footer">
+                        <span>鼓楼区</span>
+                        <a href="detail.html?id=19" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/wenduqiao.jpeg"
+                        alt="文德桥">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">文德桥</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">秦淮河上著名古桥，始建于明代，因儒家提倡"文章道德天下第一"而得名。</p>
+                    <div class="card-footer">
+                        <span>秦淮区</span>
+                        <a href="detail.html?id=20" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/nanjing_yangtze_bridge.jpeg"
+                        alt="南京长江大桥">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京长江大桥</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">中国自行设计和建造的第一座双层式铁路、公路两用桥，有"争气桥"之称。</p>
+                    <div class="card-footer">
+                        <span>鼓楼区/浦口区</span>
+                        <a href="detail.html?id=21" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/zhongshanling.jpeg"
+                        alt="中山陵">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">中山陵</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">中国近代伟大的民主革命先行者孙中山先生的陵墓，建筑宏伟，气势磅礴。</p>
+                    <div class="card-footer">
+                        <span>玄武区</span>
+                        <a href="detail.html?id=22" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/nanjingyunjin.jpg"
+                        alt="南京云锦">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京云锦</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">中国传统的丝制工艺品，有"寸锦寸金"之称，其历史可追溯至417年，已入选人类非物质文化遗产。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=23" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/yunhuatai.jpeg"
+                        alt="雨花台烈士陵园">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">雨花台烈士陵园</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">为纪念新民主主义革命时期牺牲的革命烈士而建，是全国重点文物保护单位。</p>
+                    <div class="card-footer">
+                        <span>雨花台区</span>
+                        <a href="detail.html?id=24" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/nanjingdatusha.jpeg"
+                        alt="侵华日军南京大屠杀遇难同胞纪念馆">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">侵华日军南京大屠杀遇难同胞纪念馆</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">为铭记1937年南京大屠杀历史而筹建，是中国人民承受全民族灾难的实证性、遗址型专史纪念馆。</p>
+                    <div class="card-footer">
+                        <span>建邺区</span>
+                        <a href="detail.html?id=25" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/guolizijinshan.jpeg"
+                        alt="国立紫金山天文台旧址">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">国立紫金山天文台旧址</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">中国自己建立的第一个现代天文学研究机构，被誉为"中国现代天文学的摇篮"。</p>
+                    <div class="card-footer">
+                        <span>玄武区</span>
+                        <a href="detail.html?id=26" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="cultural">
+                <div class="card-image">
+                    <img src="images/nanjingzongtongfu.jpeg"
+                        alt="南京总统府">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">南京总统府</h3>
+                    <span class="card-type type-cultural">文化遗产</span>
+                    <p class="card-desc">中国近代建筑遗存中规模最大、保存最完整的建筑群，也是南京民国建筑的主要代表。</p>
+                    <div class="card-footer">
+                        <span>玄武区</span>
+                        <a href="detail.html?id=27" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/xijulianpu.jpeg"
+                        alt="戏剧脸谱">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">戏剧脸谱</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">中国传统戏曲演员脸上的绘画，用于舞台演出时的化妆造型艺术，不同颜色代表不同人物性格。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=28" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/piyingxi.jpeg"
+                        alt="皮影戏">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">皮影戏</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">中国民间古老的传统艺术，老北京人都叫它"驴皮影"，是一种用灯光照射兽皮或纸板做成的人物剪影来表演故事的民间戏剧。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=29" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heritage-card" data-type="intangible">
+                <div class="card-image">
+                    <img src="images/kunqu.jpg"
+                        alt="昆曲">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">昆曲</h3>
+                    <span class="card-type type-intangible">非物质文化遗产</span>
+                    <p class="card-desc">中国最古老的剧种之一，也是中国传统文化艺术中的珍品，被誉为"百戏之祖"，2001年被联合国教科文组织列为"人类口述和非物质遗产代表作"。</p>
+                    <div class="card-footer">
+                        <span>南京市</span>
+                        <a href="detail.html?id=30" class="view-more">查看更多 <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <h3>中华文化遗产展示馆</h3>
+                <p>致力于展示与传播中国丰富的文化遗产</p>
+                <div class="footer-links">
+                    <a href="#">关于我们</a>
+                    <a href="#">联系方式</a>
+                    <a href="#">隐私政策</a>
+                    <a href="#">投稿指南</a>
+                </div>
+                <p class="copyright">© 2023 中华文化遗产展示馆 版权所有</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
